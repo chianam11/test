@@ -76,21 +76,14 @@ console.log(items);
         </button>
       </form>
       <div> {items.length>0&&<>
-      {items.map(({id,userId,title,body})=>{
-        return <div>
+      {items.map(({userId,title,body},index)=>{
+        return <div key={index}> 
       <div  className="p-4 border rounded-md mb-4">
-  <p>Post ID: {id}</p>
   <p>User ID: {userId}</p>
   <p className="font-semibold">Title: {title}</p>
-  <p className="text-gray-700">{body}</p>
+  <p className="text-gray-700">Body:{body}</p>
 </div></div>
       })}
-      
-       {items.id}
-      {items.userId}
-       {items.title}
-      {items.body}
-      
       </>}</div>
       
 </div>
