@@ -14,5 +14,6 @@ chạy terminal với task2: npm run task2
 
 ### chay dự án bằng lệnh: npm run dev
 
-Url default : http://localhost:5173/
+- xem tại Url default : http://localhost:5173/
+- hoặc xem deploy tại https://test-khaki-two-45.vercel.app/
 
