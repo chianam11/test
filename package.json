@@ -1,0 +1,14 @@
+{
+  "name": "test",
+  "version": "1.0.0",
+  "main": "tasks.js",
+  "scripts": {
+    "task1":"nodemon task1.js",
+    "task2":"nodemon task2.js"
+
+  },
+  "keywords": [],
+  "author": "Nguyễn Chi Nam",
+  "license": "ISC",
+  "description": ""
+}
