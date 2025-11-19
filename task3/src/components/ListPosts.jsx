@@ -12,13 +12,12 @@ dispatch(fetchPosts());
   if (status === 'failed') return <p>Error: {error}</p>;
   return (
     <>
-    {items?items.map(({id,useId,title,body},index)=>{
+    {items?items.map(({useId,title,body},index)=>{
       
       return<div key={index}>
       
       <hr />
       <div  className="p-4 border rounded-md mb-4">
-  <p>Post ID: {id}</p>
   <p>User ID: {useId}</p>
   <p className="font-semibold">Title: {title}</p>
   <p className="text-gray-700">{body}</p>

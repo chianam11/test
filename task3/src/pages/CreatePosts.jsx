@@ -45,15 +45,7 @@ console.log(items);
           />
         </div>
 
-        <div className="flex flex-col">
-          <label className="text-sm mb-1">Nhập posts ID</label>
-          <input
-            type="text"
-            onChange={handleInput}
-            name="id"
-            className="border rounded-md px-3 py-2 text-sm"
-          />
-        </div>
+       
 
         <div className="flex flex-col">
           <label className="text-sm mb-1">Nhập tên title</label>
