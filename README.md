@@ -10,10 +10,11 @@ chạy terminal với task2: npm run task2
 - reduxjs/toolkit 
 - fetch
 ### cách dùng 
-- chạy terminal với lệnh để trỏ vào thư mục task3
-
-### chay dự án bằng lệnh: npm run dev
-
-- xem tại Url default : http://localhost:5173/
-- hoặc xem deploy tại https://test-khaki-two-45.vercel.app/
+#### chạy terminal với lệnh để trỏ vào thư mục task3 : 
+- cd task3
+- npm i
+- npm run dev
+## Xem dự án 
+- xem tại Url này sau khi đã run tại local : http://localhost:5173/
+- hoặc xem trang đã deploy tại https://test-khaki-two-45.vercel.app/
 
