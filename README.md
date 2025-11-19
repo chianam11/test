@@ -9,6 +9,7 @@ chạy terminal với task2: npm run task2
 - react-redux
 - reduxjs/toolkit 
 - fetch
+- tailwind css
 ### cách dùng 
 #### chạy terminal với lệnh để trỏ vào thư mục task3 : 
 - cd task3
