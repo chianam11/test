@@ -10,7 +10,6 @@ const CreatePosts = () => {
     body: "",
   });
   const { loading, error,items } = useSelector((state) => state.newPosts);
-console.log(items);
 
   const dispatch = useDispatch();
   const handleInput = (e) => {
@@ -19,7 +18,6 @@ console.log(items);
       [e.target.name]: e.target.value,
     });
   };
-  console.log(newPostsData);
 
   const handleSubmit = async (e) => {
     e.preventDefault();

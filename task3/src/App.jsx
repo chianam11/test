@@ -6,9 +6,11 @@ const App = () => {
   return (
     <div className="h-[100vh]">
       <Nav />
-    <Routes>
-  <Route path="/" element={<Posts />} />
-  <Route path="/create" element={<CreatePosts />} />
+    <Routes >
+      <Route path="/" element={<Navigate to="/posts" replace />} />
+  <Route path="/posts" element={<Posts />} />
+  <Route path="/posts/create" element={<CreatePosts />} />
+  <Route path="*" element={<Navigate to="/posts" />} />
 </Routes>
 
     </div>
